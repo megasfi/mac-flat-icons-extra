@@ -13,7 +13,8 @@ stock apps listed by Apple for macOS.
 
 ## Contents
 
-- `icns/` — ready-to-use `.icns` files (35), named by the app's Japanese name
+- `icns/` — ready-to-use `.icns` files (35), named with the same English
+  slugs as the PNG masters (e.g. `freeform.icns`, `voice-memos.icns`)
 - `png/` — the 1024×1024 PNG masters
 - `tools/build_icons.py` — the script that generated the PNGs
   (Pillow + Iconify glyphs; a few icons — Clock, ColorSync wheel,
